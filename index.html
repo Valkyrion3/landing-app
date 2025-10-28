@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzas personales app</title>
+
+    <style>
+        /* --- Estilos Generales --- */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* --- Contenedor Principal --- */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        /* --- Cabecera y Eslogan --- */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            /* PASO 2: CAMBIA EL NOMBRE DE LA APP
+            */
+            font-size: 2.5em; /* 2.5 veces el tamaño de fuente normal */
+        }
+        header .slogan {
+            font-size: 1.3em;
+            color: #007bff; /* Un color azul para destacar */
+            font-weight: 500;
+        }
+
+        /* --- Sección de Descripción --- */
+        .description {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .description p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* --- Sección de Características (Columnas) --- */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap; /* Para que se vea bien en móviles */
+            margin-bottom: 40px;
+        }
+        .feature-item {
+            flex-basis: 45%; /* Cada ítem ocupa el 45% del ancho */
+            min-width: 250px;
+            padding: 20px;
+            text-align: center;
+        }
+        .feature-item h3 {
+            color: #007bff;
+        }
+        .feature-item p {
+            font-size: 0.95em;
+        }
+
+        /* --- Sección de Capturas de Pantalla --- */
+        .screenshots {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .screenshots img {
+            max-width: 45%;
+            margin: 5px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- Botón de Descarga (Call to Action) --- */
+        .cta {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #28a745; /* Color verde éxito */
+            color: #ffffff;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px; /* Bordes redondeados */
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #218838; /* Verde más oscuro al pasar el mouse */
+            transform: scale(1.05); /* Efecto de zoom leve */
+        }
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Finanzas personales</h1>
+
+            <p class="slogan">Inteligencia financiera a tu alcance.</p>
+        </header>
+
+        <section class="description">
+            <p>
+                Tu nuevo aliado para tomar el control de tus finanzas personales.
+                Nuestra aplicación, desarrollada por estudiantes, te permite llevar un
+                registro claro de tus ingresos y gastos, además de ofrecerte consejos
+                prácticos para mejorar tu salud financiera.
+            </p>
+        </section>
+
+        <section class="features">
+            <div class="feature-item">
+                <h3>Control Total</h3>
+                <p>Registra tus ingresos y gastos al instante. Visualiza en qué gastas tu dinero con categorías y gráficos claros.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Aprende y Crece</h3>
+                <p>Accede a una sección de tips financieros y artículos para aprender a ahorrar, invertir y manejar mejor tu dinero.</p>
+            </div>
+        </section>
+
+        <section class="screenshots">
+            <h2>Así se ve nuestra App</h2>
+            <img src="img/captura1.png" alt="Captura de pantalla 1 de la app">
+            <img src="img/captura2.png" alt="Captura de pantalla 2 de la app">
+        </section>
+
+        <section class="cta">
+            <a href="TU_ENLACE_DE_DESCARGA_AQUI" class="cta-button">
+                Obtener la App (Android .apk)
+            </a>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 - Un proyecto para la feria universitaria. Todos los derechos reservados.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
